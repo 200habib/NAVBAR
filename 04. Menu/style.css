@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container ul {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+.container ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.container ul li a:hover {
+  border-bottom: 3px solid white;
+  padding-bottom: 15px;
+}/*# sourceMappingURL=style.css.map */
